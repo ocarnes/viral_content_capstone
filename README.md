@@ -2,13 +2,13 @@
 This repository contains work completed for the [Galvanize Data Science Immersive](https://www.galvanize.com/data-science) 
 Capstone Project for the October 2017 Denver Cohort.
 
-# Background #
+## Background ##
 
 In the world of online publishing, understanding what makes content popular can be hugely beneficial for both consumers and content creators alike. When a publisher knows what’s being shared and talked about, a more personalized experience can be tailored to the user based on current trends and user demographics.
 
 From a publishing perspective, increased page views directly link an article’s popularity with the ad revenue generated from a user clicking on that page. Publishing buzzworthy content is therefore acutely relevant to a publisher’s bottom line.
 
-# Objectives #
+## Objectives ##
 
 The objective of this project are as follows:
 1. Explore connections between popular articles published on a news and lifestyle site over the course of a few months during the summer of 2017
@@ -16,7 +16,7 @@ The objective of this project are as follows:
 3. Compare article performance over time to trending topics on the same subject
 4. Create easily adapted prediction models for partner company Surge for use in online publishing analytics
 
-# Methods #
+## Methods ##
 
 1. Scrape relevant content from all articles published within a certain timeframe on a news and lifestyle website.
 2. Clean text by removing uninformative words and stemming the remaining words to create a vocabulary list
@@ -25,13 +25,13 @@ The objective of this project are as follows:
 5. Add sentiment analysis to determine whether articles have an overall negative or positive sentiment, in addition to comparing whether an article employs extreme vs. neutral language, and subjective vs. objective language
 6. Evaluate importance of latent topics and sentiment to page views
 
-## Web Scraping ##
+### Web Scraping ###
 
 The [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) python package was used to parse text scrapped
 from the client's website. Features taken from the soup included article content, date published, hyperlink counts, 
 social media link counts, keyword tags, titles, urls, and thumbnail images. 
 
-## Topic Modeling ##
+### Topic Modeling ###
 
 Topic modeling was performed using sklearn's [TfidfVectorizer](http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)
 and [Latent Dirichlet Allocation](http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.LatentDirichletAllocation.html).
@@ -39,7 +39,7 @@ and [Latent Dirichlet Allocation](http://scikit-learn.org/stable/modules/generat
 ![Clusters](/src/visualization/article_20cluster_5k_feat.png)
 ![Legend](/src/visualization/legend_20cluster_5k_feat.png)
 
-## Sentiment Analysis ##
+### Sentiment Analysis ###
 
 Sentiment analysis is ... A previosly tagged movie review dataset provided by Rotten Tomatoes is often used to 
 classify sentiment in a body of text. [Sentiment analysis](https://www.clips.uantwerpen.be/pages/pattern-en#sentiment)
