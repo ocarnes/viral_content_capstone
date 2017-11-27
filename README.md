@@ -1,5 +1,5 @@
 # README #
-This repository contains work completed for the [Galvanize Data Science Immersive](https://www.galvanize.com/data-science) 
+This repository contains work completed for the [Galvanize Data Science Immersive](https://www.galvanize.com/data-science)
 Capstone Project for the October 2017 Denver Cohort.
 
 ## Background ##
@@ -28,22 +28,21 @@ The objective of this project are as follows:
 ### Web Scraping ###
 
 The [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) python package was used to parse text scrapped
-from the client's website. Features taken from the soup included article content, date published, hyperlink counts, 
-social media link counts, keyword tags, titles, urls, and thumbnail images. 
+from the client's website. Features taken from the soup included article content, date published, hyperlink counts,
+social media link counts, keyword tags, titles, urls, and thumbnail images.
 
 ### Topic Modeling ###
 
 Topic modeling was performed using sklearn's [TfidfVectorizer](http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)
 and [Latent Dirichlet Allocation](http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.LatentDirichletAllocation.html).
 
-![Clusters](/src/visualization/article_20cluster_5k_feat.png)
-![Legend](/src/visualization/legend_20cluster_5k_feat.png)
+![Clusters](/img/LDA.png)
 
 ### Sentiment Analysis ###
 
-Sentiment analysis is ... A previosly tagged movie review dataset provided by Rotten Tomatoes is often used to 
+Sentiment analysis is ... A previosly tagged movie review dataset provided by Rotten Tomatoes is often used to
 classify sentiment in a body of text. [Sentiment analysis](https://www.clips.uantwerpen.be/pages/pattern-en#sentiment)
-from the [pattern](https://www.clips.uantwerpen.be/pages/pattern) python package was used to classify sentiment 
+from the [pattern](https://www.clips.uantwerpen.be/pages/pattern) python package was used to classify sentiment
 on a scale from -1 to 1, where 0.1 is commonly used as the threshold between a positive or negative article.
-![Sentiment](/src/visualization/violin_40k_views.png)
-![Categories](/src/visualization/cats_violin.png)
+![Sentiment](/img/Polarity_x_subjectivity.png)
+![Categories](/img/violin.png)
