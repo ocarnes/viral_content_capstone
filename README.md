@@ -48,7 +48,8 @@ on a scale from -1 to 1, where 0.1 is commonly used as the threshold between a p
 
 ## Analysis ##
 
-<img src="https://github.com/ocarnes/viral_content_capstone/blob/master/img/violin.png" width="40%">
+When analyzing the sentiments of highly viewed articles, we see a trend toward negative in the majority of the categories.
 
-When analyzing the sentiments of highly viewed
-<img src="https://github.com/ocarnes/viral_content_capstone/blob/master/img/violin5.png" width="40%"> <img src="https://github.com/ocarnes/viral_content_capstone/blob/master/img/violin8.png" width="40%">
+<img src="https://github.com/ocarnes/viral_content_capstone/blob/master/img/violin9.png" width="80%">
+
+<img src="https://github.com/ocarnes/viral_content_capstone/blob/master/img/PopularityByTopic.png" width="80%">
