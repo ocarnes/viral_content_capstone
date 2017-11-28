@@ -34,15 +34,20 @@ social media link counts, keyword tags, titles, urls, and thumbnail images.
 ### Topic Modeling ###
 
 Topic modeling was performed using sklearn's [TfidfVectorizer](http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)
-and [Latent Dirichlet Allocation](http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.LatentDirichletAllocation.html).
+and [Latent Dirichlet Allocation](http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.LatentDirichletAllocation.html). The below image is notable because of the uniqueness of each topic. Typically a corpus of articles will have overlapping topic clusters but here we can see that each cluster is very distinct. This creates an opportunity to build a very specialized recommendation system for readers wanting content similar to what they've already consumed.
 
 ![Clusters](/img/LDA.png)
 
 ### Sentiment Analysis ###
 
-Sentiment analysis is ... A previosly tagged movie review dataset provided by Rotten Tomatoes is often used to
-classify sentiment in a body of text. [Sentiment analysis](https://www.clips.uantwerpen.be/pages/pattern-en#sentiment)
+[Sentiment analysis](https://www.clips.uantwerpen.be/pages/pattern-en#sentiment)
 from the [pattern](https://www.clips.uantwerpen.be/pages/pattern) python package was used to classify sentiment
-on a scale from -1 to 1, where 0.1 is commonly used as the threshold between a positive or negative article.
+on a scale from -1 to 1, where 0.1 is commonly used as the threshold between a positive or negative article. The below graph indicates that the majority of highly viewed articles are neither very polarizing nor very extreme in their use of either positive or negative language.
 ![Sentiment](/img/Polarity_x_subjectivity.png)
+
+## Analysis ##
+
 ![Categories](/img/violin.png)
+
+When analyzing the sentiments of highly viewed 
+![Under20](/img/violin5.png)![Over80](/img/violin5.png)
