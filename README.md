@@ -43,11 +43,12 @@ and [Latent Dirichlet Allocation](http://scikit-learn.org/stable/modules/generat
 [Sentiment analysis](https://www.clips.uantwerpen.be/pages/pattern-en#sentiment)
 from the [pattern](https://www.clips.uantwerpen.be/pages/pattern) python package was used to classify sentiment
 on a scale from -1 to 1, where 0.1 is commonly used as the threshold between a positive or negative article. The below graph indicates that the majority of highly viewed articles are neither very polarizing nor very extreme in their use of either positive or negative language.
+
 ![Sentiment](/img/Polarity_x_subjectivity.png)
 
 ## Analysis ##
 
-![Categories](/img/violin.png)
+![Categories](/img/violin.png | width=100)
 
-When analyzing the sentiments of highly viewed 
-![Under20](/img/violin5.png)![Over80](/img/violin5.png)
+When analyzing the sentiments of highly viewed
+![Under20](/img/violin5.png | width=200)![Over80](/img/violin8.png | width=250)
