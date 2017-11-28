@@ -67,7 +67,7 @@ Ultimately, revenue is the main area of interest in this research. This specific
 
 Overall, while no specific attribute jumped out as a key indicator of article popularity on this particular site, topic segmentation appears to be the most useful finding of this project. In the future, I'd like to conduct more research in the following areas:
 
-  Analyze popularity in terms of shares and reactions
-  Compare trending topics on twitter
-  Investigate thumbnail images
-  Build a recommendation system
+  * Analyze popularity in terms of shares and reactions
+  * Compare trending topics on twitter
+  * Investigate thumbnail images
+  * Build a recommendation system
