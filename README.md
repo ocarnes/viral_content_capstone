@@ -41,15 +41,33 @@ and [Latent Dirichlet Allocation](http://scikit-learn.org/stable/modules/generat
 ### Sentiment Analysis ###
 
 [Sentiment analysis](https://www.clips.uantwerpen.be/pages/pattern-en#sentiment)
-from the [pattern](https://www.clips.uantwerpen.be/pages/pattern) python package was used to classify sentiment
-on a scale from -1 to 1, where 0.1 is commonly used as the threshold between a positive or negative article. The below graph indicates that the majority of highly viewed articles are neither very polarizing nor very extreme in their use of either positive or negative language.
+from the [pattern](https://www.clips.uantwerpen.be/pages/pattern) python package was used to classify sentiment on a scale from -1 to 1, where 0.1 is commonly used as the threshold between a positive or negative article. The below graph indicates that the majority of highly viewed articles are neither very polarizing nor very extreme in their use of either positive or negative language.
 
 ![Sentiment](/img/Polarity_x_subjectivity.png)
 
+### Trends ###
+
+Data was imported from facebook, twitter, and google trends using article urls and keywords in order to investigate page views in relation to whether or not a topic is trending. No significant results were obtained, however.
+
+### Readability ###
+
+Readability was investigated to determine whether or not an article's reading grade level impacted page views. Readability was measured using the [Automated Readability Index](https://en.wikipedia.org/wiki/Automated_Readability_Index), with results showing that most articles and popular articles normalized around a 10th grade reading level.
+
 ## Analysis ##
 
-When analyzing the sentiments of highly viewed articles, we see a trend toward negative in the majority of the categories.
+When analyzing the sentiments of highly viewed articles, we see a trend toward negative in the majority of the categories. This keeps with the theory that tragedy sells. Positive or negative sentiments do seem to depend on the topic, however, because something like tech has highly rated negative articles whereas articles about first families (ex: Kate Middleton in England and Melania Trump in America) are generally positive. Tech likely skews negative because of video game names (ex: Gears of War, Battlefront) and exploding batteries, which were a popular topic at the time of data collection.
 
 <img src="https://github.com/ocarnes/viral_content_capstone/blob/master/img/violin9.png" width="80%">
 
-<img src="https://github.com/ocarnes/viral_content_capstone/blob/master/img/PopularityByTopic.png" width="80%">
+Ultimately, revenue is the main area of interest in this research. This specific website pays authors a minimum of $15 per post, so an article has been defined as net positive if the article has achieved enough page views to generate at least $15 in ad revenue. From the chart below, we can see that certain categories meet this threshold much more frequently than others. As such, it may be useful for authors on this site to create content for multiple categories in order to stay relevant.
+
+<img src="https://github.com/ocarnes/viral_content_capstone/blob/master/img/RevenueByTopic.png" width="80%">
+
+### Future Directions ###
+
+Overall, while no specific attribute jumped out as a key indicator of article popularity on this particular site, topic segmentation appears to be the most useful finding of this project. In the future, I'd like to conduct more research in the following areas:
+
+  Analyze popularity in terms of shares and reactions
+  Compare trending topics on twitter
+  Investigate thumbnail images
+  Build a recommendation system
