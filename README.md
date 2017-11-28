@@ -48,7 +48,7 @@ on a scale from -1 to 1, where 0.1 is commonly used as the threshold between a p
 
 ## Analysis ##
 
-![Categories](/img/violin.png | width=100)
+![Categories](/img/violin.png){:height="50%" width="50%"}
 
 When analyzing the sentiments of highly viewed
-![Under20](/img/violin5.png | width=200)![Over80](/img/violin8.png | width=250)
+![Under20](/img/violin5.png){:height="50%" width="50%"}![Over80](/img/violin8.png){:height="50%" width="50%"}
