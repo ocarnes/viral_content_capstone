@@ -8,6 +8,7 @@ from sklearn.metrics import recall_score, precision_score, roc_auc_score, roc_cu
 # import graphviz
 import pickle as pickle
 import pprint
+from sklearn.preprocessing import scale
 
 def trees_model(model, X_train, X_test, y_train, y_test):
     tree_model = model.fit(X_train, y_train)
